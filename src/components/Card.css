@@ -1,0 +1,116 @@
+/* styles.css */
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.cardHeader {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.cardHeader p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+}
+
+.viewJob {
+    border: none;
+    background: none;
+    color: blue;
+}
+
+.jobInfo {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.company {
+    margin-top: -5px;
+    margin-bottom: 0px;
+    color: #c6c6c6;
+    letter-spacing: 2px;
+}
+
+.role {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #7d7d7d;
+}
+
+.location {
+    margin-top: 5px;
+    color: #7d7d7d;
+    font-size: 10px;
+}
+
+.salary {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.applyBtn {
+    background-color: #54efc3;
+    width: 95%;
+    height: 5%;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+}
+
+.refBtn {
+    background-color: #4943da;
+    width: 95%;
+    height: 5%;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.fade-container {
+    /* opacity: 0.78;
+    transition: opacity 1s linear;
+    box-shadow: 0 4px 8px rgba(255, 254, 254, 1); */
+    /* background-color: #ff0000; */
+    /* background-image: linear-gradient(red, yellow); */
+    text-align: left;
+}
+
+.minExp {
+    color: #8f8f8f;
+}
+
+.exp {
+    float: left;
+    text-align: left;
+}
+
+.fade-container.fade-out {
+    opacity: 0;
+}
+
+
+/* Media query for mobile devices */
+
+@media screen and (max-width: 768px) {
+    .cards-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
