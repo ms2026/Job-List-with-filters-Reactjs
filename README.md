@@ -5,7 +5,8 @@ Navigate cmd to your downloaded project location and run the below commands
 npm install
 
 # Run the project
-npm start
+"npm start"
+
 Then the project will start to run in your local host server
 
 
