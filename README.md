@@ -1,10 +1,14 @@
-<<<<<<< HEAD
+
 # Getting Started with Create React App
+Navigate cmd to your downloaded project location and run the below commands
+# Install dependencies
+npm install
 
-First in Your Local You need run npm install in you cmd (windows)
-Then after node modules get sucessfully installed, you need to put npm start and the project will run in your local host server.
+# Run the project
+npm start
+Then the project will start to run in your local host server
 
-In This project :
-Filters has been added and we are able to search by company name.
-We are able to scroll down to more job cards.
-The webpage is well responsive many mobile views also.
+
+Filters: Filters has been added and user will be able to search by company name.
+Responsive Design: Ensure seamless viewing experience across various devices.
+Scroll Feature: User can scroll down to many job cards.
